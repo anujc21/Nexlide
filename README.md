@@ -1,4 +1,4 @@
-# Nexlide
+# Nexlide - A Smart AI Based Presentation Generator
 
 **Nexlide** automates the creation of professional presentations based on user input. This tool simplifies the process of creating slides by providing various customization options and integrating AI for content generation.
 
