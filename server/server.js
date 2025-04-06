@@ -11,9 +11,15 @@ dotenv.config();
 
 const getID = () => "_" + Math.random().toString(36).substr(2, 9);
 
-const server = http.createServer();
-
 const io = sockjs.createServer();
+
+const app = express();
+
+app.get("/", (req, res) => {
+	res.status(200).send("OK");
+});
+
+const server = http.createServer(app);
 
 const serviceAccount = {
 	"type": "service_account",
