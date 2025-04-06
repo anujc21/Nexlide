@@ -24,7 +24,7 @@ Select from a variety of predefined templates, including:
 ### 3. **Generate Slides Dynamically**
 The presentation slides are generated dynamically using a combination of:
 - 🧩 **pptxgenjs** (Frontend): For creating slide structures and layouts.
-- ⚙️ **express** (Backend): For handling server-side logic and content generation.
+- ⚙️ **express & sockjs** (Backend): For handling server-side logic and content generation.
 
 ### 4. **Customize Layouts & Design**
 Users can further personalize their presentations by customizing:
