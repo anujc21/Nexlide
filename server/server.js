@@ -103,13 +103,6 @@ io.on("connection", (socket) => {
     socket.on("data", (message) => {
     	const data = JSON.parse(message);
 
-    	if (data.event === "test"){
-    		socket.write(JSON.stringify({
-    			event: "test",
-    			value: data.value
-    		}));
-    	}
-
     	if (data.event === "prompt"){
 			const input = data.value;
 
